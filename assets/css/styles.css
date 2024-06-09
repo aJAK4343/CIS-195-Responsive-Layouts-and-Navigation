@@ -34,3 +34,68 @@ nav a:hover {
 h1 { 
    text-align: center;
 }
+
+.container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+
+.headline {
+   width: 100%;
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.large-block {
+   width: 80%;
+   height: 300px;
+   background-color: pink;
+   margin-bottom: 20px;
+}
+
+.small-blocks {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 80%;
+}
+
+.small-block {
+   width: 45%;
+   height: 150px;
+   background-color: yellow;
+   margin: 10px 0;
+}
+
+.image-block {
+   position: relative;
+   width: 80%;
+   height: auto;
+   background-color: orange;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image-block img {
+   width: 60%;
+   height: auto;
+   position: relative;
+   z-index: 1;
+}
+
+.overlay-block {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: orange;
+   z-index: 0;
+}
